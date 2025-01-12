@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BFS_DFS_Kodları", "BFS_DFS_Kodları\BFS_DFS_Kodları.csproj", "{EE93EC1D-4D60-4BA8-9038-B7D5DD9DAB10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFS_Kodları", "DFS_Kodları\DFS_Kodları.csproj", "{58890FED-0537-467B-BCD8-FFC68EC74FBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE93EC1D-4D60-4BA8-9038-B7D5DD9DAB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE93EC1D-4D60-4BA8-9038-B7D5DD9DAB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE93EC1D-4D60-4BA8-9038-B7D5DD9DAB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE93EC1D-4D60-4BA8-9038-B7D5DD9DAB10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58890FED-0537-467B-BCD8-FFC68EC74FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58890FED-0537-467B-BCD8-FFC68EC74FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58890FED-0537-467B-BCD8-FFC68EC74FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58890FED-0537-467B-BCD8-FFC68EC74FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
