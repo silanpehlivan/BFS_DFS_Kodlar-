@@ -1,4 +1,5 @@
 🔍 BFS & DFS Algorithm Implementation
+
 Bu proje, temel veri yapıları ve algoritma prensiplerini anlamak amacıyla Breadth-First Search (BFS) ve Depth-First Search (DFS) algoritmalarının C# dili ile gerçekleştirilmiş bir uygulamasıdır.
 
 🛠 Teknik Detaylar
