@@ -131,12 +131,10 @@ BFS_DFS_Kodlar/
 
 ---
 
-## 👩‍💻 Geliştirici
-
-- Şilan Pehlivan
-
----
-
 ## 📜 Lisans
 
-Bu proje eğitim amaçlıdır ve MIT lisansı kapsamında kullanılabilir.
+Bu proje **MIT License** ile lisanslanmıştır. Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
+
+## 👩‍💻 Geliştirici
+
+Şilan Pehlivan
