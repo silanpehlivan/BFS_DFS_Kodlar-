@@ -1,25 +1,52 @@
-# 🧠 BFS ve DFS Algoritmaları C# Implementasyonu
+<div align="center">
+
+# BFS & DFS
+
+**Graf gezinti algoritmaları**
+
+![C#](https://img.shields.io/badge/C%23-2563eb?style=flat-square)
+![Graph Algorithms](https://img.shields.io/badge/Graph%20Algorithms-0891b2?style=flat-square)
+[![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)](LICENSE)
+
+Genişlik ve derinlik öncelikli aramayı komşuluk listesiyle temsil edilen graflar üzerinde uygulayan eğitim projesi.
+
+</div>
+
+---
+
+## Öne Çıkanlar
+
+- Kuyruk tabanlı BFS
+- Özyinelemeli DFS
+- Komşuluk listesi ve ziyaret takibi
+
+## Teknolojiler
+
+C# · Graph Algorithms
+
+<details>
+<summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
 
 Bu proje, Bilgisayar Bilimleri ve Veri Yapıları derslerinde sıkça kullanılan iki temel grafik arama algoritması olan **Genişlik Öncelikli Arama (BFS)** ve **Derinlik Öncelikli Arama (DFS)** algoritmalarının C# dilinde implementasyonlarını içermektedir.
 
 ---
 
-## 🎯 Projenin Amacı
+## Projenin Amacı
 
 Bu projenin temel amacı, grafik veri yapıları üzerinde arama algoritmalarının çalışma mantığını uygulamalı olarak göstermektir.
 
 Bu kapsamda:
 
-- 🔹 BFS ve DFS algoritmalarının mantığının anlaşılması  
-- 🔹 Grafik veri yapısının (adjacency list) kullanımı  
-- 🔹 C# ile algoritmik düşünme becerisinin geliştirilmesi  
-- 🔹 Veri yapıları dersine pratik katkı sağlanması  
+- BFS ve DFS algoritmalarının mantığının anlaşılması  
+- Grafik veri yapısının (adjacency list) kullanımı  
+- C# ile algoritmik düşünme becerisinin geliştirilmesi  
+- Veri yapıları dersine pratik katkı sağlanması  
 
 ---
 
-## 📚 Özellikler
+## Özellikler
 
-### 🌐 Genişlik Öncelikli Arama (BFS)
+### Genişlik Öncelikli Arama (BFS)
 
 - Grafikte seviyeli (katman katman) gezinti yapar  
 - Kuyruk (Queue) veri yapısını kullanır  
@@ -27,7 +54,7 @@ Bu kapsamda:
 
 ---
 
-### 🌲 Derinlik Öncelikli Arama (DFS)
+### Derinlik Öncelikli Arama (DFS)
 
 - Grafikte mümkün olduğunca derine iner  
 - Stack veya recursive yapı kullanır  
@@ -35,7 +62,7 @@ Bu kapsamda:
 
 ---
 
-### 📊 Grafik Temsili
+### Grafik Temsili
 
 Grafikler şu yapı ile temsil edilmiştir:
 
@@ -47,7 +74,7 @@ Bu yapı adjacency list (komşuluk listesi) mantığına dayanır.
 
 ---
 
-## ⚙️ Teknik Detaylar
+## Teknik Detaylar
 
 | Özellik | Açıklama |
 |----------|----------|
@@ -59,7 +86,7 @@ Bu yapı adjacency list (komşuluk listesi) mantığına dayanır.
 
 ---
 
-## 💻 BFS (Genişlik Öncelikli Arama)
+## BFS (Genişlik Öncelikli Arama)
 
 ```csharp
 public static void BFS(Dictionary<int, List<int>> grafik, int baslangic)
@@ -89,7 +116,7 @@ public static void BFS(Dictionary<int, List<int>> grafik, int baslangic)
 
 ---
 
-## 🌲 DFS (Derinlik Öncelikli Arama)
+## DFS (Derinlik Öncelikli Arama)
 
 ```csharp
 public static void DFS(Dictionary<int, List<int>> grafik, int dugum, bool[] ziyaretEdildi)
@@ -109,7 +136,7 @@ public static void DFS(Dictionary<int, List<int>> grafik, int dugum, bool[] ziya
 
 ---
 
-## 🚀 Kurulum ve Çalıştırma
+## Kurulum ve Çalıştırma
 
 1. Projeyi indir veya klonla  
 2. Visual Studio ile `.sln` dosyasını aç  
@@ -118,7 +145,7 @@ public static void DFS(Dictionary<int, List<int>> grafik, int dugum, bool[] ziya
 
 ---
 
-## 📂 Proje Yapısı
+## Proje Yapısı
 
 ```
 BFS_DFS_Kodlar/
@@ -131,10 +158,15 @@ BFS_DFS_Kodlar/
 
 ---
 
-## 📜 Lisans
 
-Bu proje **MIT License** ile lisanslanmıştır. Detaylı bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
+</details>
 
-## 👩‍💻 Geliştirici
+---
 
-Şilan PEHLİVAN
+<div align="center">
+
+**© 2024 Şilan PEHLİVAN**
+
+Bu proje MIT lisansı kapsamında sunulmaktadır. Kullanım ve dağıtım koşulları: [LICENSE](LICENSE).
+
+</div>
