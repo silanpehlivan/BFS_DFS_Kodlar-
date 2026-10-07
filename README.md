@@ -2,17 +2,32 @@
 
 # BFS & DFS
 
-**Graf gezinti algoritmaları**
+### Aynı grafı iki farklı yoldan keşfet.
 
-![C#](https://img.shields.io/badge/C%23-2563eb?style=flat-square)
-![Graph Algorithms](https://img.shields.io/badge/Graph%20Algorithms-0891b2?style=flat-square)
-[![MIT License](https://img.shields.io/badge/License-MIT-16a34a?style=flat-square)](LICENSE)
+![C#](https://img.shields.io/badge/C%23-2563eb?style=for-the-badge)
+![Graph Algorithms](https://img.shields.io/badge/Graph%20Algorithms-0891b2?style=for-the-badge)
+[![MIT](https://img.shields.io/badge/MIT-16a34a?style=for-the-badge)](LICENSE)
 
 Genişlik ve derinlik öncelikli aramayı komşuluk listesiyle temsil edilen graflar üzerinde uygulayan eğitim projesi.
+
+**Graf gezinti algoritmaları**
+
+[Projeyi keşfet](https://github.com/silanpehlivan/BFS_DFS_Kodlar-/tree/master) · [Kurulum ve ayrıntılar](#projeyi-çalıştırmak-ve-incelemek)
 
 </div>
 
 ---
+
+## İçeride neler var?
+
+- **01** · Kuyruk tabanlı BFS
+- **02** · Özyinelemeli DFS
+- **03** · Komşuluk listesi ve ziyaret takibi
+
+## Projeyi çalıştırmak ve incelemek
+
+<details>
+<summary><strong>Kurulum, kod yapısı ve teknik notları aç</strong></summary>
 
 ## Öne Çıkanlar
 
@@ -24,21 +39,20 @@ Genişlik ve derinlik öncelikli aramayı komşuluk listesiyle temsil edilen gra
 
 C# · Graph Algorithms
 
-## Teknik yaklaşım
+### Teknik yaklaşım
 
 Komşuluk listesi grafı temsil eder; BFS kuyruk, DFS özyinelemeli çağrılar üzerinden ilerler. Ziyaret takibi tekrar işlemeyi önler.
 
-## Kodu incelemeye başlayın
+### Kodu incelemeye başlayın
 
 - [BFS_DFS_Kodları/Program.cs](BFS_DFS_Kodlar%C4%B1/Program.cs)
 - [DFS_Kodları/Program.cs](DFS_Kodlar%C4%B1/Program.cs)
 
-## Kapsam ve sınırlar
+### Kapsam ve sınırlar
 
 Gezinti örnekleri temel algoritma çalışmalarıdır; ağırlıklı en kısa yol veya geniş ölçekli graf performansı iddiası içermez.
 
-<details>
-<summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
+
 
 Bu proje, Bilgisayar Bilimleri ve Veri Yapıları derslerinde sıkça kullanılan iki temel grafik arama algoritması olan **Genişlik Öncelikli Arama (BFS)** ve **Derinlik Öncelikli Arama (DFS)** algoritmalarının C# dilinde implementasyonlarını içermektedir.
 
@@ -170,6 +184,8 @@ BFS_DFS_Kodlar/
 ```
 
 ---
+
+
 
 
 </details>
