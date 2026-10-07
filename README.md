@@ -24,6 +24,19 @@ Genişlik ve derinlik öncelikli aramayı komşuluk listesiyle temsil edilen gra
 
 C# · Graph Algorithms
 
+## Teknik yaklaşım
+
+Komşuluk listesi grafı temsil eder; BFS kuyruk, DFS özyinelemeli çağrılar üzerinden ilerler. Ziyaret takibi tekrar işlemeyi önler.
+
+## Kodu incelemeye başlayın
+
+- [BFS_DFS_Kodları/Program.cs](BFS_DFS_Kodlar%C4%B1/Program.cs)
+- [DFS_Kodları/Program.cs](DFS_Kodlar%C4%B1/Program.cs)
+
+## Kapsam ve sınırlar
+
+Gezinti örnekleri temel algoritma çalışmalarıdır; ağırlıklı en kısa yol veya geniş ölçekli graf performansı iddiası içermez.
+
 <details>
 <summary><strong>Kurulum, kullanım ve teknik ayrıntılar</strong></summary>
 
